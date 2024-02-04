@@ -23,7 +23,8 @@ function getBotResponse(userMessage) {
     const responses = {
         'hello': 'Hi there!',
         'how are you': 'I am a bot. I don\'t have feelings, but thanks for asking!',
-        '
+        'How are you doing' :'I''m a machine, so I don''t have feelings, but I m here to assist you!',
+        'what is the time now' : 'I don t have real-time capabilities or access to current data, including the current time. Please check the time on your device or use an appropriate service to get the current time, feel free to ask!',
     };
   
     for (const pattern in responses) {
